@@ -58,3 +58,26 @@ button:hover {
 #message, #registerMessage {
   min-height: 20px;
 }
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
